@@ -3,7 +3,7 @@
 Light‑weight (≈1.7 kB gzipped) helper that shows a full‑screen pre‑loader **and** lazy‑loads heavy CSS / JS / web‑fonts *in parallel*.
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/your-org/resource-delay/dist/resource-delay.min.js"></script>
+<script src="resource-delay.min.js"></script>
 ```
 
 ---
