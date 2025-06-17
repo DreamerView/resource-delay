@@ -19,7 +19,7 @@ Light‑weight (≈1.7 kB gzipped) helper that shows a full‑screen pre‑lo
 ## Quick start (parallel load)
 
 ```html
-<script src="resource-delay.js"></script>
+<script src="resource-delay.min.js"></script>
 <script>
 ResourceDelay.delay({
   html: '<h2 style="font:24px system-ui">Loading…</h2>',
@@ -29,10 +29,9 @@ ResourceDelay.delay({
   js:   [
     'https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js'
   ],
-  fonts:[
-    // Google Fonts via the CSS endpoint — safest option
-    'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'
-  ]
+ fonts: [
+    ['Inter', 'https://webapps1.chicago.gov/cdn/Fonts/glyphicons-halflings-regular.woff2']
+]
 }).then(initApp);
 </script>
 ```
